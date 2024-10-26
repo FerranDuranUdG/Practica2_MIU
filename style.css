@@ -1,0 +1,134 @@
+
+body{
+    font-family: Calibri, Gill Sans, Gill Sans MT;
+}
+
+.container{
+    /* flex-direction: row-reverse; */
+    /* background: color #FFFFFF; */
+    display: flex;
+
+    gap : 20px;
+
+    /* width: 793px; */
+    /* height:  100%; */
+    /* height: 1123px;  */
+
+    /* div.proba1 {flex-grow: 1;};
+    div.proba2 {flex-grow: 3;}; */
+
+}
+
+.container2{
+    background-color:#A0A0FF;
+    display: flex;
+    justify-content: space-between;
+    
+    flex-direction: column;
+    align-items: center;
+    width: 254.22px
+}
+
+.container2 h2{
+    color:black;
+    font-weight: strong;
+    font-size: 14pt;
+}
+
+a{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 10pt;
+}
+
+.introduction{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    margin-top: 20px;
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-bottom: 40px;
+}
+
+/* .competences{
+    align-self: flex-end;
+    justify-self: flex-end;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} */
+
+/* .icona{
+    align-self:flex-end;
+} */
+
+/* .icona2{
+    align-items:flex-end;
+} */
+
+.list3{
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.main-proba2{
+    /* background-color: #A0A0FF; */
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.proba2{
+    /* background-color: #A0A0FF; */
+    flex-grow: 1;
+    flex-shrink: 1;
+    /* flex-direction: row-reverse; */
+}
+
+.proba2 h2{
+    color:blue;
+    font-weight: strong;
+    font-size: 14pt;
+}
+
+
+p{
+    font-size: 11.5pt;
+}
+
+div{
+    font-size: 11.5pt;
+}
+
+.separation1{
+    color:blue;
+    font-weight: strong;
+    font-size: 30pt;
+}
+
+.separation2{
+    color:blue;
+    font-weight: strong;
+    font-size: 28pt;
+}
+
+.list1{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.list2{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+

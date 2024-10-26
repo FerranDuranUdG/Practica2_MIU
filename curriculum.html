@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>MM HTML Template</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <span class="container">
+            <div class="container2">
+                <div class="introduction">
+                    <h2>FERRAN DURAN FONT</h2>
+                    <img src="Foto.jpg" alt="Tux the Penguin" width = "192px" height = "256px" />
+                </div>
+                <div class="contact">
+                    <div>Cassà de la Selva - 17244</div><br>
+                    <div class="icona2"><img class="icona" src="email.png" alt="Tux the Penguin" width = "25px" height = "25px" />:</div>
+                    <a id="href" class="href" href="mailto:ferranduranfont@gmail.com">ferranduranfont@gmail.com</a>
+                    <h2><br>COMPETÈNCIES</h2>
+                    <div class="list3">
+                        <div>
+                            Interès en l’aprenentatge
+                        </div>
+                        <div>
+                            Treball en equip
+                        </div>
+                        <div>
+                            Orientació a resultats
+                        </div>
+                        <div>
+                            Motivació i actitud envers la feina
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <span class="main-proba2">
+                <div id="proba2" class="proba2">
+                <h2>SOBRE MI </h2>
+                <p>
+                    Estic buscant la meva primera feina per adquirir experiència en el món laboral.<br>
+                    Sóc una persona responsable, constant i amb molt d’interès en l’àmbit informàtic i les ciències.<br>
+                    Durant el meu temps lliure m’agrada caminar envoltat de natura i acompanyat del meu gos.
+                </p>
+                <h2>ESTUDIS</h2>
+                <div class="list1">
+                    <div>
+                        <strong>Grau d’Enginyeria Informàtica</strong><br>
+                        Universitat de Girona | 2020 – Actualitat<br>
+                    </div>
+                    <div>
+                        <strong>Batxillerat Científic</strong><br>
+                        Institut Cassà de la Selva | 2018 – 2020<br>
+                    </div>
+                    <div>
+                        <strong>Educació Secundària Obligatòria</strong><br>
+                        Institut Cassà de la Selva | 2014 – 2018
+                    </div>
+                </div>
+                <!-- <div class="separation1">. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .</div> -->
+                <div name="separation" class="separation1"></div>
+                <h2>PRÀCTIQUES UNIVERSITÀRIES</h2>
+                <div>
+                    Pràctiques de Xarxes<br>
+                    Projecte de Programació<br>
+                    Projecte de Desenvolupament del Software
+                </div>
+                <!-- <div class="separation2">. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .</div> -->
+                <span name="separation" class="separation2"></span>
+                <h2>IDIOMES</h2>
+                <div class="list2">
+                    <div>
+                        <strong>Català:</strong> Llengua materna<br>
+                    </div>
+                    <div>
+                        <strong>Castellà:</strong> Nivell alt<br>
+                    </div>
+                    <div>
+                        <strong>Anglès:</strong> Nivell mig
+                    </div>
+                </div>
+                <!-- <div class="separation2">. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .</div> -->
+                <div name="separation" class="separation2"></div>
+                <h2>INFORMÀTICA</h2>
+                <div>
+                    Coneixements informàtics nivell alt
+                </div>
+                <!-- <div class="separation2">. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .</div> -->
+                <div name="separation" class="separation2"></div>
+                <h2>ALTRES DADES D’INTERÈS</h2>
+                <div>
+                    Em considero una persona puntual i responsable.<br>
+                    Disponibilitat immediata.<br>
+                    Preferència de mitja jornada.
+                </div>
+                </div>
+            </span>
+        </apan>
+    </body>
+    <script>
+        var Area=document.getElementById("proba2").offsetWidth;
+        var separations_collection=document.getElementsByName("separation");
+        
+        console.log(Area);
+
+        const separations = [...separations_collection];
+
+
+        separations.forEach(separation =>{
+            separation.innerHTML=".";
+
+            // console.log(Screen);
+            // console.log(Screen.availWidth);
+            console.log(screen.width);
+
+            var separation_long = separation.offsetWidth;
+            console.log(separation_long);
+            while(separation_long<Area && separation_long<screen.width){
+                var actualTExt = separation.getHTML();
+                separation.innerHTML = (actualTExt+" .");
+                var separation_long = separation.offsetWidth;
+            }
+        })
+    </script>
+</html>
