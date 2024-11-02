@@ -7,5 +7,6 @@ primera esta subdibidida per dos elements amn¡b etiqueta div sitats als extrens
 La segona columna esta dividida en sis parts principals cadauna inicida amb un titol h2 i separades entre elles per un conjunt de elements div. 
 
 
-link: https://github.com/FerranDuranUdG/Practica2_MIU.git;
+link: https://github.com/FerranDuranUdG/Practica2_MIU.git
+
 Email icons created by kornkun
