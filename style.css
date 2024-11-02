@@ -1,12 +1,23 @@
 
 body{
     font-family: Calibri, Gill Sans, Gill Sans MT;
+    background-color: FF0000;
+
+}
+
+header{
+    position: sticky;
+    top: 0px;
+    right: inherit;
+    background-color:#8080E5;
+    justify-items: center;
 }
 
 .container{
     /* flex-direction: row-reverse; */
     /* background: color #FFFFFF; */
     display: flex;
+    justify-items: stretch;
 
     gap : 20px;
 
